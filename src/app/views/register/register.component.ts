@@ -25,4 +25,7 @@ export class RegisterComponent implements OnInit {
     console.log(this.profileForm.value.name);
   }
 
+  eliminarRegister(){
+    console.log('hola');
+  }
 }

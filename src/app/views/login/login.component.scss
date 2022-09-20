@@ -1,4 +1,23 @@
 .img{
-  padding-left: 100ch;
-  padding-right: 100ch;
+  padding-left: 70ch;
+  padding-right: 70ch;
+}
+
+.form-login{
+  padding-left: 50ch;
+  padding-right: 40ch;
+  margin-top: 2ch;
+  grid-template-columns: repeat(auto-fill,minmax(15rem,1fr));
+
+  .form-group{
+    margin-top: 2ch;
+  }
+}
+
+.btn-register{
+  padding-left: 60ch;
+  margin-top: 2ch;
+  .btn{
+    margin: 1ch;
+  }
 }
